@@ -9,9 +9,9 @@ pip install -e .
 inside this repo will put a working `my_package` executable in your virtualenv/bin directory.  Adapt this tree as you wish.
 
 ## Usage
-Clone this repository
-Set up a virtualenv
-Rename the my_package directory as desired, set up your code and entry points, edit setup.py and setup.cfg as required.  When ready to deploy:
+- Clone this repository
+- Set up a virtualenv
+- Rename the my_package directory as desired, set up your code and entry points, edit setup.py and setup.cfg as required.  When ready to deploy:
 ```
 pip install versioneer
 versioneer install
